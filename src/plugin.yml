@@ -1,0 +1,20 @@
+name: BanterPatchwork
+version: 0.1
+author: Braditanium
+main: com.banteruhc.BanterPatch.Main
+website: BanterUHC.com
+load: STARTUP
+commands:
+    top:
+        description: Send you to the highest block above your head.
+        usage: /top
+    craft:
+        decsription: Open a crafting table
+        usage: /craft
+permissions:
+    banter.command.top:
+        description: Go to highest Y value if border is >250
+        default: op
+    banter.command.craft:
+        description: Open crafting menu
+        default: op
